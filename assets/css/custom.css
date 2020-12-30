@@ -1,0 +1,63 @@
+@font-face {
+	font-family: Montserrat-bold;
+	src: url(../fonts/Montserrat/Montserrat-Bold.ttf);
+}
+body{
+	font-family: Montserrat-bold;
+	color: #848695;
+	text-transform: uppercase;
+	width: 100%;
+	margin: auto;
+}
+.candle-container{
+	background-image: url("../images/background.jpg");
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	padding: 5% 7%;
+}
+.candle-section{
+	display: flex;
+	justify-content: space-evenly;
+}
+.candle-img{
+	width: 20%;
+}
+.candle-img img{
+	width: 100%;
+	max-width: 210px;
+}
+.candle-content{
+	width: 90%;
+	margin: auto;
+	margin-top: 3em;
+}
+.candle-content a{
+	color: #848695;
+}
+.candle-content h1{
+	font-size: 2em;
+}
+.candle-content h2{
+	font-size: 1.5em;
+	margin-top: 1em;
+	margin-bottom: .7em;
+}
+.candle-content h3{
+	font-size: 1.4em;
+}
+.candle-content p{
+	margin: 0;
+}
+.candle-reason{
+	margin-top: 2.5em;
+}
+/* Responsive style */
+@media only screen and (max-width: 576px){
+	.candle-content{
+		width: 100%;
+	}
+	.candle-container{
+		padding: 3em 1em;
+	}
+}
+/* End responsive style */
